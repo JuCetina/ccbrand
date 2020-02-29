@@ -1,0 +1,42 @@
+
+
+nav img{
+    height: 58px;
+}
+
+#carouselIndicators .carousel-inner{
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+
+#carouselIndicators img{
+    max-height: 47vh;
+    object-fit: cover;
+}
+
+#carouselIndicators .overlay{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0 ,0, .4);
+    color: #ffffff;
+    z-index: 1;
+}
+
+#carouselFade img{
+    max-height: 20vh;
+    object-fit: cover;
+}
+
+.footer{
+    background-color: #d4cfcf;
+    font-size: .8em;
+    color: #706e6e;
+}
+
+.footer img{
+    height: 60px;
+}

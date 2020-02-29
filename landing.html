@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/estilos-landing.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
+    <title>CCBRAND</title>
+</head>
+<body>
+    <div class="hero">
+        <header class="header">
+            <img src="images/logo_gris-01.svg" alt="CCBRAND" class="logo">
+            <div class="burger-button">
+                <i class="icon-menu"></i>
+            </div>
+            <nav class="menu">
+                <ul>
+                    <li>
+                        <a href="index.html">Home</a>
+                    </li>
+                    <li>
+                        <a href="">Portafolio</a>
+                    </li>
+                    <li>
+                        <a href="">Clientes</a>
+                    </li>
+                    <li>
+                        <a href="">Contacto</a>
+                    </li>
+                    <li>
+                        <a href="">Somos</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+        <div class="principal">
+            <p class="frase-uno">Programas y películas sin límite y mucho más, programas y películas sin límite y mucho más.</p>
+            <p class="frase-dos">Disfruta donde quieras, cancela en cualquier momento, disfruta donde quieras, cancela en cualquier momento.</p>
+            <p class="frase-tres">¿Quieres ver Netflix ya? Ingresa tu email para crear una cuenta de Netflix o acceder a la tuya.</p>
+        </div>
+    </div>
+    <div class="prueba">
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolores optio amet accusantium molestiae vel nam beatae, reiciendis architecto asperiores sapiente totam, modi adipisci, cum maiores harum doloribus nihil officia et.</p>
+        
+    </div>
+    <script>
+        const menu = document.querySelector('.menu');
+        const burgerButton = document.querySelector('.burger-button');
+        burgerButton.addEventListener('click', showHide);
+        menu.addEventListener('click', showHide);
+
+        function showHide(){
+            if(menu.classList.contains('is-active')){
+                menu.classList.remove('is-active');
+            }
+            else{
+                menu.classList.add('is-active');
+            }
+        }
+
+    </script>
+</body>
+</html>
