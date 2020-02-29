@@ -27,7 +27,7 @@ nav img{
 }
 
 #carouselFade img{
-    max-height: 20vh;
+    max-height: 40vh;
     object-fit: cover;
 }
 
