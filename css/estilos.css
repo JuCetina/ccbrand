@@ -11,7 +11,7 @@ nav img{
 }
 
 #carouselIndicators img{
-    max-height: 60vh;
+    max-height: 65vh;
     object-fit: cover;
 }
 
@@ -27,7 +27,7 @@ nav img{
 }
 
 #carouselFade img{
-    max-height: 40vh;
+    max-height: 30vh;
     object-fit: cover;
 }
 
