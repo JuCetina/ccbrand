@@ -30,6 +30,7 @@
 }
 
 html, body{
+    background-color: black;
     height: 100%;
     margin: 0;
     font-family: 'Lato', sans-serif;
@@ -37,7 +38,7 @@ html, body{
 }
 
 .hero{
-    background-image: url('../images/hero.jpg');
+    background-image: url('../images/fondo.jpeg');
     height: 100vh;
     background-position: center;
     background-repeat: no-repeat;
