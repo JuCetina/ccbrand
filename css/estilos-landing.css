@@ -43,7 +43,7 @@ html, body{
     height: 100vh;
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain;
     position: relative;
 }
 
@@ -164,9 +164,9 @@ p{
         font-size: 2em;
     } */
 
-    .hero{
+    /* .hero{
         background-image: url('../images/fondo-prueba.jpeg');
-    }
+    } */
 }
 
 @media screen and (max-width: 480px){
