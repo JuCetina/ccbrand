@@ -58,7 +58,7 @@ html, body{
 .contacto{
     position: absolute;
     right: 0;
-    bottom: 0;
+    bottom: 5px;
     width: 200px;
     height: 85px;
     background-image: url('../images/contact.jpeg');
@@ -67,6 +67,7 @@ html, body{
     background-size: cover;
     border-top-left-radius: 10px;
     border-bottom-left-radius: 10px;
+    border: solid 1px white;
 }
 
 /* .header ul{
