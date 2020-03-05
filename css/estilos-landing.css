@@ -59,9 +59,9 @@ html, body{
 .contacto{
     position: absolute;
     right: 0;
-    bottom: 5px;
-    width: 200px;
-    height: 85px;
+    bottom: 20%;
+    width: 150px;
+    height: 80px;
     background-image: url('../images/contact.jpeg');
     background-position: center;
     background-repeat: no-repeat;
