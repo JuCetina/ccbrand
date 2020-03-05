@@ -38,7 +38,7 @@ html, body{
 }
 
 .hero{
-    background-image: url('../images/fondo.jpeg');
+    background-image: url('../images/fondo-hero.jpeg');
     height: 100vh;
     background-position: center;
     background-repeat: no-repeat;
