@@ -82,4 +82,19 @@ nav img{
     margin-left: 25px;
 }
 
+.btn-ccbrand{
+    background: #97c93e;
+    color: white;
+}
+
+.btn-ccbrand:hover{
+    background: #82ad36;
+    color: white;
+}
+
+.contact-title{
+    font-size: 25px;
+    font-weight: bold;
+}
+
 
