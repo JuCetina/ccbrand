@@ -67,6 +67,13 @@ nav img{
     object-fit: cover;
 }
 
+.products-wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+}
+
 .footer{
     background-color: #d4cfcf;
     font-size: .8em;
